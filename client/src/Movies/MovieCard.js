@@ -4,7 +4,7 @@ const MovieCard = props => {
   const { title, director, metascore, stars } = props.movie;
   return (
     <div className="movie-card">
-      <h2>{title}</h2>
+      <h1>{title}</h1>
       <div className="movie-director">
         Director: <em>{director}</em>
       </div>
@@ -17,7 +17,9 @@ const MovieCard = props => {
         <div key={star} className="movie-star">
           {star}
         </div>
+        
       ))}
+      
     </div>
   );
 };
