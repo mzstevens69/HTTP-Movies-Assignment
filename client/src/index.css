@@ -60,6 +60,7 @@ body {
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
+  border-radius: 6px;
 }
 .save-button:hover {
   background-color: green;
@@ -69,9 +70,44 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+  border-radius: 6px;
 }
 
 .movie-warning {
   color: red;
   text-align: center;
+}
+.edit-btn {
+  height: 25px;
+  width: 100px;
+  border-radius: 6px;
+  background-color: lightseagreen;
+  
+}
+.update-btn {
+  height: 25px;
+  width: 100px;
+  border-radius: 6px;
+  background-color: rgb(243, 71, 71);
+  color: white;  
+}
+.submit-button {
+  height: 25px;
+  width: 100px;
+  border-radius: 6px;
+  background-color: lightseagreen;
+}
+form {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+input {
+  height: 25px;
+  width: 200px;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  color: midnightblue;
+
 }
